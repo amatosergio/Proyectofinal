@@ -5,22 +5,20 @@
 /*Index*/
 header{
     background-color:white;
-    height: 20vh;
+   
 
 }
-
-  .firma {
-    height: 15vh
-
-} 
- 
+.bg-sergi {
+    background-color: rgb(18,29,42,255);
+    height: 80vh;
+}
 
 .nav ul {
     text-align: right;
 }
 
 .nav li, footer {
-    list-style-type: none;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     display: inline;
@@ -28,18 +26,13 @@ header{
      
 }
 
-.nav ul :hover{
-    color: lightblue;
+.nav li :hover{
+    color: lightblue,;
     font-size: 18px;
+
 }
 
-.nav ul li a{
-    text-decoration: none;
-    color: rgb(8, 8, 8);
 
-    
-   
-}
 
 /*Grid Index */
 .grid-parent img{
@@ -53,7 +46,6 @@ header{
 
 }
 
-
 .medio{
     height: 85vh;
     background-color: rgb(18,29,42,255);
@@ -63,9 +55,6 @@ header{
 .medio__descripcion p {
     flex-direction: column;
     text-align: center;
-    
-    
-    
 }
 
  .imagencentral{
@@ -207,32 +196,15 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: x-large;
     
-    
-}
-.fondoantecedentes p {
-    position: relative;
-    right: 400px;
-    bottom: 50px;
 }
 
 .fondoantecedentes h1{
-    font-size: 60px;
-    /* color: rgb(18,29,42,255); */
-    color: rgb(5, 249, 233);
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
     position: relative;
-    bottom: 100px;
+    bottom: 300px;
     right: 400px;
 }
 
-
-.rotaciones , .posgrados, .cursos , .actualmente{
-    font-size: 45px;
-    color: rgb(5, 249, 233);
-    position: relative;
-    bottom: 50px;
-    right: 400px;
-    
- }
-
-
-   
