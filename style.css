@@ -199,3 +199,8 @@ header{
     right: 400px;
 }
 
+.carousel-item img {
+    width: 500px;
+    height: 600px;
+    padding: 40px;
+}
