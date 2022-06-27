@@ -13,12 +13,10 @@ header{
     height: 80vh;
 }
 
-.nav ul {
-    text-align: right;
-}
 
-.nav li, footer {
-    text-decoration: none;
+
+.nav, footer {
+    list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     display: inline;
@@ -26,10 +24,9 @@ header{
      
 }
 
-.nav li :hover{
-    color: lightblue,;
+.navbar-nav li :hover{
+    color: lightblue;
     font-size: 18px;
-
 }
 
 
@@ -46,16 +43,8 @@ header{
 
 }
 
-.medio{
-    height: 85vh;
-    background-color: rgb(18,29,42,255);
-    
-}
 
-.medio__descripcion p {
-    flex-direction: column;
-    text-align: center;
-}
+
 
  .imagencentral{
     width: 40%;
@@ -195,6 +184,8 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: x-large;
+    height: 100%;
+    
     
 }
 
