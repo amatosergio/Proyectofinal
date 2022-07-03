@@ -23,6 +23,11 @@ header{
     flex-wrap: wrap;
      
 }
+.carousel-item img {
+    width: 400px;
+    height: 700px;
+    padding: 40px;
+}
 
 .navbar-nav li :hover{
     color: lightblue;
@@ -199,8 +204,3 @@ header{
     right: 400px;
 }
 
-.carousel-item img {
-    width: 500px;
-    height: 600px;
-    padding: 40px;
-}
