@@ -124,6 +124,7 @@ header{
        font-family: 'Montserrat', sans-serif;
         font-family: 'Roboto', sans-serif;
         font-size: x-large;
+        margin: 0px;
         
           
        }
@@ -159,7 +160,7 @@ header{
     }
 
     /*Grid Consultorio*/
-    .grid-container{ 
+   /*  .grid-container{ 
         display: grid;
         grid-template-rows: 100vh 100vh;
         grid-template-columns: 80vh 80vh;
@@ -172,10 +173,10 @@ header{
     }
 
     .foto1, .foto2, .foto3, .foto4 {
-    border: 8px solid rgb(222, 226, 226);
+    border: 8px solid rgb(222, 226, 226); */
     
     
-    }
+    
     
 
 
