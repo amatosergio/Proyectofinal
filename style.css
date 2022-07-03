@@ -29,9 +29,9 @@ header{
     padding: 40px;
 }
 
-.navbar-nav li :hover{
+.nav-item :hover{
     color: lightblue;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -181,15 +181,12 @@ header{
 
 /*antecedentes html*/
 
-.fondoantecedentes  {
+.fondoantecedentes {
     background-image: url(multimedia/fotos/electro.jpg);
-    padding: 400px;
-    margin: 1px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-size: x-large;
-    height: 100%;
+    padding: 100px;
+    
+    
+    
     
     
 }
@@ -204,3 +201,26 @@ header{
     right: 400px;
 }
 
+/* List with bullets */
+.list-bullets {
+    list-style: none;
+    
+}
+
+.list-bullets li{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.list-bullets li::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #5784d7;
+    border: 2px solid #8fb3f5;
+    display: block;
+    margin-right: 1rem;
+}
