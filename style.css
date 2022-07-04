@@ -231,7 +231,7 @@ header{
 .list-bullets :hover {
     transition-property:all ;
     transition-duration: 2s;
-    font-size: 15px;
+    font-size: 20px;
     color: lightblue
   
 }
