@@ -124,7 +124,7 @@ header{
        font-family: 'Montserrat', sans-serif;
         font-family: 'Roboto', sans-serif;
         font-size: x-large;
-        margin: 0px;
+        
         
           
        }
@@ -202,7 +202,8 @@ header{
     right: 400px;
 }
 
-/* List with bullets */
+
+
 .list-bullets {
     list-style: none;
     
@@ -211,6 +212,7 @@ header{
 .list-bullets li{
     display: flex;
     align-items: center;
+    color: black;
     
     
 }
@@ -224,4 +226,12 @@ header{
     border: 2px solid #8fb3f5;
     display: block;
     margin-right: 1rem;
+}
+
+.list-bullets :hover {
+    transition-property:all ;
+    transition-duration: 2s;
+    font-size: 15px;
+    color: lightblue
+  
 }
