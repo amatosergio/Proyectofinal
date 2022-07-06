@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+/*Index*/
+header {
+  background-color: white;
+}
+
+.bg-sergi {
+  background-color: rgb(18, 29, 42);
+  height: 80vh;
+}
+
+.nav, footer {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: inline;
+  flex-wrap: wrap;
+}
+
+.carousel-item img {
+  width: 400px;
+  height: 700px;
+  padding: 40px;
+}
+
+.nav-item :hover {
+  color: lightblue;
+  font-size: 20px;
+}
+
+/*Grid Index */
+.grid-parent img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 0px;
+}
+
+.imagencentral {
+  width: 40%;
+  display: flex;
+  align-self: center;
+  margin: 0% auto;
+}
+
+.descripcion {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 500px;
+  top: 150px;
+}
+
+.firma2 {
+  width: 33vh;
+  height: 33vh;
+  position: relative;
+  left: 1500px;
+  bottom: 380px;
+}
+
+.imagensilvia {
+  height: 35vh;
+  width: 35vh;
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+}
+
+.piepagina {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 1px;
+}
+
+/*contacto html*/
+.fondo {
+  background-image: url(../multimedia/fotos/estetoscopio.jpg);
+  padding: 100px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/*pediatria html*/
+.fondopediatria {
+  background-image: url(../multimedia/fotos/fondo.jpg);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+}
+
+.videos {
+  display: flex;
+  justify-content: space space-between;
+  align-self: flex-end;
+  height: 600px;
+  position: relative;
+  top: 150px;
+}
+
+.videos h3 p {
+  position: relative;
+  bottom: 50px;
+  left: 400px;
+  font-size: x-large;
+}
+
+/*consultorio html*/
+.fondoconsultorio {
+  background-color: rgb(18, 29, 42);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  height: 230vh;
+}
+
+/*Grid Consultorio*/
+/*  .grid-container{ 
+     display: grid;
+     grid-template-rows: 100vh 100vh;
+     grid-template-columns: 80vh 80vh;
+     justify-content: center;
+
+ grid-template-areas: 
+ "foto1" "foto2"
+ "foto3" "foto4";
+
+ }
+
+ .foto1, .foto2, .foto3, .foto4 {
+ border: 8px solid rgb(222, 226, 226); */
+/*antecedentes html*/
+.fondoantecedentes {
+  background-image: url(../multimedia/fotos/electro.jpg);
+  padding: 100px;
+}
+
+.fondoantecedentes h1 {
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 300px;
+  right: 400px;
+}
+
+.list-bullets {
+  list-style: none;
+}
+
+.list-bullets li {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.list-bullets li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #5784d7;
+  border: 2px solid #8fb3f5;
+  display: block;
+  margin-right: 1rem;
+}
+
+.list-bullets :hover {
+  transition-property: all;
+  transition-duration: 2s;
+  font-size: 20px;
+  color: lightblue;
+}
+
+/*# sourceMappingURL=style.css.map */
