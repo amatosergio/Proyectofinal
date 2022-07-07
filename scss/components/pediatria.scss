@@ -1,0 +1,23 @@
+.fondopediatria {
+    background-image: url(../multimedia/fotos/fondo.jpg);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+  }
+  
+  .videos {
+    display: flex;
+    justify-content: space space-between;
+    align-self: flex-end;
+    height: 600px;
+    position: relative;
+    top: 150px;
+  }
+  
+  .videos h3 p {
+    position: relative;
+    bottom: 50px;
+    left: 400px;
+    font-size: x-large;
+  }

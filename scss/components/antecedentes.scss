@@ -1,0 +1,42 @@
+.fondoantecedentes {
+    background-image: url(../multimedia/fotos/electro.jpg);
+    padding: 100px;
+  }
+  
+  .fondoantecedentes h1 {
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 300px;
+    right: 400px;
+  }
+  
+  .list-bullets {
+    list-style: none;
+  }
+  
+  .list-bullets li {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .list-bullets li::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #5784d7;
+    border: 2px solid #8fb3f5;
+    display: block;
+    margin-right: 1rem;
+  }
+  
+  .list-bullets :hover {
+    transition-property: all;
+    transition-duration: 2s;
+    font-size: 20px;
+    color: lightblue;
+  }
