@@ -1,0 +1,17 @@
+/*Mapa contiene una key y un valor  */
+
+$titulos : (
+    color-titulo : white,
+    fuente-titulo: "Montserrat", sans-serif,
+    flexbox-titulo: flex,
+    );
+
+$parrafo :(
+    color-parrafo: black,
+    fuente-titulo: "Montserrat", sans-serif,
+    flexbox-titulo: grid,
+)    
+
+.contacto h1 {
+    background-color: map-get($titulos, fuente-titulo );
+}

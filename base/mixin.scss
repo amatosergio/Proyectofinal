@@ -1,0 +1,11 @@
+@mixin magic ($ancho) {
+ width: $ancho;   
+}
+
+.contacto h1 {
+    @include magic(100%)
+}
+
+.fondo {
+    @include magic( 50%)
+}

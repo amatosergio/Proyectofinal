@@ -3,10 +3,16 @@
     padding: 0%;
 }
 
-@import '../components/index';
-@import '../components/antecedentes';
-@import '../components/consultorio';
-@import '../components/pediatria';
-@import '../components/contacto';
+@import '../components/index.scss';
+@import '../components/antecedentes.scss';
+@import '../components/consultorio.scss';
+@import '../components/pediatria.scss';
+@import '../components/contacto.scss';
+@import '../base/mapa.scss';
+@import '../base/extend.scss';
+
+
+
+
 
 
