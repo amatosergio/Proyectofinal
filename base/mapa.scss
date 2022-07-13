@@ -2,16 +2,14 @@
 
 $titulos : (
     color-titulo : white,
-    fuente-titulo: "Montserrat", sans-serif
+    fuente-titulo: "Montserrat",
     flexbox-titulo: flex,
     );
 
 $parrafo :(
     color-parrafo: black,
-    fuente-titulo: "Montserrat", sans-serif,
+    fuente-titulo: "Montserrat",
     flexbox-titulo: grid,
 );    
 
-.contacto h1 {
-    background-color: map-get($titulos, fuente-titulo );
-}
+
