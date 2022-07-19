@@ -132,6 +132,10 @@ header {
   height: 230vh;
 }
 
+
+
+
+/*Pediatria */
 .fondopediatria {
   background-image: url(../multimedia/fotos/fondo.jpg);
   color: white;
@@ -156,8 +160,38 @@ header {
   font-size: x-large;
 }
 
+@media only screen and (max-width: 1200px){
+  .videos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.fondopediatria{
+  height: 60vh;
+}
+
+.videos h3 p {
+ position: inherit;
+  
+}
+ .piepagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+
+ .fondoconsultorio img {
+  max-width: 800px;
+  max-height: 800px;
+ }
+
+}
+
 .fondo {
   background-image: url(../multimedia/fotos/estetoscopio.jpg);
+  height: auto;
   padding: 100px;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -173,3 +207,5 @@ header {
 }
 
 /*Mapa contiene una key y un valor  */
+
+/*# sourceMappingURL=style.css.map */
