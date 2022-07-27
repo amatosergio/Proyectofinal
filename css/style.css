@@ -155,7 +155,7 @@ header {
   display: flex;
   justify-content: space space-between;
   align-self: flex-end;
-  height: 600px;
+  height: 80vh;
   position: relative;
   top: 150px;
 }
@@ -171,11 +171,12 @@ header {
   .videos {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     align-items: center;
-    justify-content: start;
+    
   }
   .fondopediatria {
-    height: 60vh;
+    height: 140vh;
   }
   .videos h3 p {
     position: inherit;
