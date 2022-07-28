@@ -21,7 +21,7 @@ header {
 }
 
 .carousel-item img {
-  width: 400px;
+  width: 800px;
   height: 700px;
   padding: 40px;
 }
@@ -132,7 +132,6 @@ header {
   padding: 50px;
   max-width: 1000px;
   max-height: 1000px;
-  align-self: center;
   
   
 }
@@ -205,9 +204,16 @@ header {
     justify-content: center;
     
   }
-
 }
-.fondo {
+@media only screen and (max-height: 825px){
+.bg-sergi {
+  height: 900px;
+  }
+  }
+
+
+
+.contacto{
   background-image: url(../multimedia/fotos/estetoscopio.jpg); 
   height: 100vh;
   width: 100%;
@@ -219,11 +225,12 @@ header {
 
 
 .contacto h1 {
-  font-size: 40px;
-  position: relative;
-  left: 90px;
-  top: 80px;
-  color: rgb(253, 252, 252);
+  font-size: 90px;
+  display: flex;
+  align-items: flex-start;
+  color: rgb(253, 251, 251);
+  font-size: 50px;
+ 
 }
 
 /*Mapa contiene una key y un valor  */
