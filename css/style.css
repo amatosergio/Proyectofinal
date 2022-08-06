@@ -21,33 +21,33 @@ header {
 }
 
 .carousel-item img {
-  width: 800px;
-  height: 700px;
+  height: 80vh;
   padding: 40px;
+
 }
 
 .nav-item :hover {
   color: lightblue;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /*Grid Index */
-.grid-parent img {
+/* .grid-parent img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 0px;
-}
+} */
 
-.imagencentral {
+/* .imagencentral {
   width: 40%;
   display: flex;
   align-self: center;
   margin: 0% auto;
-}
+} */
 
-.descripcion {
+/* .descripcion {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -57,23 +57,16 @@ header {
   position: relative;
   left: 500px;
   top: 150px;
-}
+} */
 
-.firma2 {
-  width: 33vh;
-  height: 33vh;
-  position: relative;
-  left: 1500px;
-  bottom: 380px;
-}
 
-.imagensilvia {
+/* .imagensilvia {
   height: 35vh;
   width: 35vh;
   position: relative;
   bottom: 50px;
   left: 150px;
-}
+} */
 
 .piepagina {
   display: flex;
@@ -186,7 +179,7 @@ header {
     
   }
   .fondopediatria {
-    height: 140vh;
+    height: 150vh;
   }
   .videos h3 p {
     position: inherit;
@@ -205,18 +198,44 @@ header {
     
   }
 }
-@media only screen and (max-height: 825px){
-.bg-sergi {
-  height: 900px;
+@media only screen and (max-width: 1020px){
+.fondopediatria {
+  height: 180vh;
+  width: 100vh;
   }
+  }
+
+  @media only screen and (max-width :625px){
+    .fondoconsultorio{
+      height: 400vh;
+      width: 100vh;
+    }
+    .contacto {
+      height: 400vh;
+      width: 150%;
+    }
+  }
+
+  @media only screen and (max-width: 700px){
+    .carousel-item img {
+      height: 25vh;
+      padding: 40px;
+    }
+    
+    .cl.descripcion p {
+      display: flex;
+      position: relative;
+      justify-content: center;
+    }
+
   }
 
 
 
 .contacto{
   background-image: url(../multimedia/fotos/estetoscopio.jpg); 
-  height: 100vh;
-  width: 100%;
+  height: 130vh;
+  width: 2400vh;
   padding: 20vh;
   color: white;
   font-family: "Montserrat", sans-serif;
